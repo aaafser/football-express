@@ -1,0 +1,152 @@
+.top-container{
+    
+    background-color:#2D25A0; 
+  
+}
+.upper-container{
+    height: 450px;
+    weight: 1440px;
+}
+.first-nav{
+    display: flex;
+    height: 150px;
+    weight: 1440px;
+    
+
+}
+
+.first-nav ul {
+    display: flex;
+  
+     
+}
+.li-span{
+    display: flex;
+    padding-left: 100px;
+    
+}
+.li-span li a:hover{
+    background-color: cornflowerblue;
+}
+.li-span-two{
+    width:80px ;
+    height: 60px;
+    display: flex;
+    padding-left: 410px;
+   
+   }
+   .li-span-two li{
+       background-color: #E02C6D;
+    }
+.li-span-two a{
+    
+    padding:10px;
+    border-radius: 10px;
+    
+   }
+   
+.first-nav ul li{
+    list-style: none;
+    display: flex;
+    margin: 10px;
+    padding: 0px 20px;
+}
+.first-nav ul li a{
+    text-decoration: none;
+color:white;
+font-size: 20px;
+list-style: none;
+}
+
+.second-nav{
+    display: flex;
+    height: 450px;
+    weight: 950px;
+    padding-left: 200px;
+    padding-bottom: 70px;
+}
+.first-nav-work{
+    font-size: 50px;
+    color:white;
+    border-radius: 5px;
+}
+.first-nav-work a{
+    text-decoration: none;
+    color:white;
+    background-color: #E02C6D;
+    font-size: 40px;
+    border-radius: 10px;
+}
+.second-nav-work img{
+    height: 450px;
+    weight: 450px;
+    padding-left: 100px;  
+   }
+   .second-nav-work:hover{
+    background-color:cornflowerblue;
+    transform:skewX(20deg)
+  }
+
+  .player-list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 80px;
+    margin-top: 80px;
+  }
+  .player{
+      padding-bottom: 40px;
+  }
+.player .thumbline img{
+    width: 330px;
+    height: 474x;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+.play-name a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    
+}
+.play-name {
+    text-align: center;
+    
+}
+.player-details{
+    font-size: 20px;
+   text-align: start;
+ 
+   padding: 0px 20px;
+}
+
+  
+.lastpart-one img{
+    width: 400px;
+    height: 150px;
+    padding-left: 480px;
+ 
+}
+.lastpart-two{padding-left: 650px;}
+.lastpart-three{
+    text-align: center;
+}
+.fas{padding: 0px 20px;}
+
+@media only screen and (max-width:688px){
+    
+     
+    .first-nav{display: none;}
+
+    .second-nav-work{display: none;}
+    .player-list{
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+
+
+
+    .lastpart-one{  
+        
+        display: none;
+        
+     }
+}
